@@ -8,15 +8,38 @@
 
 import UIKit
 
-class secondViewController: UIViewController {
+var numberOne = 10
 
+var numberTwo = 5
+
+class secondViewController: UIViewController {
+    
+ 
+    
+    @IBOutlet weak var secondLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+var numberThree = numberOne + numberTwo
+    
+    @IBAction func calculateButtonPressed(_ sender: Any)
+    {
+        self.secondLabel.text = String(numberThree)
+        
+        if numberOne > numberTwo
+        {
+            self.view.backgroundColor = UIColor.purple
+        }
+        else
+        {
+            self.view.backgroundColor = UIColor.red
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

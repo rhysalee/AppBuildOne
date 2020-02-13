@@ -10,23 +10,49 @@
         <!--Item 2-->
         <scene sceneID="7Mg-g7-8vf">
             <objects>
-                <viewController id="V3n-wU-jxV" sceneMemberID="viewController">
+                <viewController id="V3n-wU-jxV" customClass="secondViewController" customModule="appBuildOne" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K5H-E9-BAB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5h-VK-w1W">
+                                <rect key="frame" x="108" y="106" width="197" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculateButtonPressed:" destination="V3n-wU-jxV" eventType="touchUpInside" id="YIs-pP-I0i"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISH-R9-hcH">
+                                <rect key="frame" x="267" y="271" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Answer Is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kVo-6c-RzT">
+                                <rect key="frame" x="39" y="271" width="165" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PnB-oU-b6x"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="4ag-eh-lPK"/>
+                    <connections>
+                        <outlet property="secondLabel" destination="ISH-R9-hcH" id="xbo-N6-BKm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lM3-IY-XfN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-320" y="482"/>
+            <point key="canvasLocation" x="-320.28985507246381" y="481.47321428571428"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="qLT-LM-lEm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="30p-hA-2D1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="dcF-X1-8hx" customClass="firstViewController" customModule="appBuildOne" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v9Q-ey-CuM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -74,6 +100,7 @@
                         <outlet property="firstText" destination="i2n-LT-WLv" id="Lv8-le-Cl3"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30p-hA-2D1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-320.28985507246381" y="-475.44642857142856"/>
         </scene>
