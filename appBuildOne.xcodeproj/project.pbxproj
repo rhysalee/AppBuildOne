@@ -13,6 +13,8 @@
 		AF78FF6D23F5E17200C0D99C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78FF6B23F5E17200C0D99C /* Main.storyboard */; };
 		AF78FF6F23F5E17300C0D99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF78FF6E23F5E17300C0D99C /* Assets.xcassets */; };
 		AF78FF7223F5E17300C0D99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF78FF7023F5E17300C0D99C /* LaunchScreen.storyboard */; };
+		AF78FF7A23F5E2B000C0D99C /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78FF7923F5E2B000C0D99C /* firstViewController.swift */; };
+		AF78FF7C23F5E90800C0D99C /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78FF7B23F5E90800C0D99C /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AF78FF6E23F5E17300C0D99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF78FF7123F5E17300C0D99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF78FF7323F5E17300C0D99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF78FF7923F5E2B000C0D99C /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
+		AF78FF7B23F5E90800C0D99C /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AF78FF6723F5E17200C0D99C /* SceneDelegate.swift */,
 				AF78FF6923F5E17200C0D99C /* ViewController.swift */,
 				AF78FF6B23F5E17200C0D99C /* Main.storyboard */,
+				AF78FF7B23F5E90800C0D99C /* secondViewController.swift */,
+				AF78FF7923F5E2B000C0D99C /* firstViewController.swift */,
 				AF78FF6E23F5E17300C0D99C /* Assets.xcassets */,
 				AF78FF7023F5E17300C0D99C /* LaunchScreen.storyboard */,
 				AF78FF7323F5E17300C0D99C /* Info.plist */,
@@ -141,6 +147,8 @@
 				AF78FF6A23F5E17200C0D99C /* ViewController.swift in Sources */,
 				AF78FF6623F5E17200C0D99C /* AppDelegate.swift in Sources */,
 				AF78FF6823F5E17200C0D99C /* SceneDelegate.swift in Sources */,
+				AF78FF7C23F5E90800C0D99C /* secondViewController.swift in Sources */,
+				AF78FF7A23F5E2B000C0D99C /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
